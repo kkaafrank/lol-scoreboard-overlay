@@ -1,0 +1,49 @@
+{
+  "name": "lol-scoreboard-overlay",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "kkaafrank",
+    "email": "kevin.fan.72601@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "names",
+        "title": "Team Names",
+        "width": 2,
+        "file": "TeamNames.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "dots",
+        "title": "Game Score Dots",
+        "width": 2,
+        "file": "GameScoreDots.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "scoreboard.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "private": true
+}

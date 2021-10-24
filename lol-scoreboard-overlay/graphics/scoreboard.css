@@ -1,0 +1,66 @@
+#bo5 {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  left: 29%;
+}
+
+#bo3 {
+  display: none;
+  position: absolute;
+  top: 16px;
+  left: 29%;
+}
+
+#bo1 {
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: 29%;
+}
+
+#dots {
+  font-size: 10px;
+  color: #c4c4c4;
+}
+
+.redScoreDots {
+  margin-left: 800px;
+}
+
+.teamContainer {
+  display: flex;
+  position: absolute;
+  top: 12px;
+  height: 50px;
+  width: 1920px;
+  font-family: "EB Garamond", serif;
+}
+
+#blueTeam {
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: block;
+  text-align: center;
+  color: #37a8e0;
+  line-height: 1em;
+  max-height: 1em;
+  font-size: 35px;
+  margin-left: 19%;
+}
+
+#redTeam {
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: block;
+  text-align: center;
+  color: #c7353d;
+  line-height: 1em;
+  max-height: 1em;
+  font-size: 35px;
+  margin-left: 72%;
+}
